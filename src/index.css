@@ -61,7 +61,7 @@ button {
   margin: 0 10px;
   background: transparent;
   border: 3px solid #ccc;
-  border-radius: 20px;
+  border-radius: 4px;
   padding: 10px;
   color: var(--btn-color);
   font-size: 1.2rem;
@@ -71,4 +71,15 @@ button {
 button:hover {
   color: #fff;
   border-color: #fff;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
 }
