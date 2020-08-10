@@ -1,9 +1,12 @@
 :root {
-  --prim-color: #ccc;
   --prim-txt-color: #fcd251;
   --scnd-txt-color: rgb(221, 170, 19);
-  --scnd-color: #222;
-  --btn-color: #ccc;
+  
+  --prim-color: #eee;
+  --scnd-color: #282c34;
+
+  --txt-color: white;
+  --btn-color: #eee;
 }
 
 * {
@@ -20,6 +23,8 @@ body {
   background: var(--scnd-color);
   margin: 0 auto;
   max-width: 1600px;
+  min-height: 100vh;
+  color: (--txt-color);
 }
 
 code {
@@ -73,13 +78,29 @@ button:hover {
   border-color: #fff;
 }
 
-.header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+
+}
+
+.title-bcg {
+
+
+}
+
+.navbar {
+  font-size: calc(10px + 2vmin);
   display: flex;
+  margin: 15px auto 35px auto;
+}
+
+.flex, .flex-col {
+  display: flex;
+}
+.flex-col{
   flex-direction: column;
+}
+.center , .navbar{
   align-items: center;
   justify-content: center;
-  color: white;
-  font-size: calc(10px + 2vmin);
 }
+
