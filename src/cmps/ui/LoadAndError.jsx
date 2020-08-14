@@ -1,6 +1,7 @@
 import React from 'react';
 import './loader.css';
 import './error.css';
+// import fatRocket from './rocket-128px.svg';
 
 // LOADING
 
