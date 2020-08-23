@@ -1,9 +1,9 @@
 :root {
-  --prim-txt-color: #fcd251;
-  --scnd-txt-color: rgb(221, 170, 19);
+  --prim-color: #fcd251;
+  --scnd-color: rgb(221, 170, 19);
   
-  --prim-color: #eee;
-  --scnd-color: #282c34;
+  --prim-light-color: #eee;
+  --scnd-dark-color: #282c34;
 
   --txt-color: white;
   --btn-color: #eee;
@@ -20,7 +20,7 @@ body {
     'Roboto', 'Oxygen', 'Ubuntu', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--scnd-color);
+  background: var(--scnd-dark-color);
   margin: 0 auto;
   max-width: 1600px;
   min-height: 100vh;
@@ -38,12 +38,12 @@ h5,
 h6,
 p,
 div {
-  color: var(--prim-txt-color);
+  color: var(--prim-color);
 }
 
 h1,
 h2 {
-  color: var(--scnd-txt-color);
+  color: var(--scnd-color);
   font-family: 'Lemonada', 'Garamond', 'Bernard Mt', Arial, Helvetica,
     sans-serif;
 }
@@ -104,3 +104,17 @@ button:hover {
   justify-content: center;
 }
 
+.card {
+  padding: 8px 16px;
+  background-color: var(--scnd-dark-color);
+  margin: 16px 0;
+  border-radius: 20px;
+}
+.card h3{
+  margin: 10px;
+  color: var(--prim-color);
+}
+.card p{
+  margin: 6px 0;
+  color: var(--prim-light-color);
+}
