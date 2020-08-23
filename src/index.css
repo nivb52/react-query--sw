@@ -107,6 +107,7 @@ button:hover {
 .card {
   padding: 8px 16px;
   background-color: var(--scnd-dark-color);
+  filter: brightness(90%);
   margin: 16px 0;
   border-radius: 20px;
 }
