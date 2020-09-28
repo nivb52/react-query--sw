@@ -24,7 +24,7 @@ const Persons = () => {
 
     </div>
         {data && data.results && 
-         data.results.map ( person =>  <Person person = {person} key={Person.name}/>
+         data.results.map ( person =>  <Person person = {person} key={person.url}/>
          )
          } 
     </>
